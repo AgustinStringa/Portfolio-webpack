@@ -1,5 +1,5 @@
 [build]
-    base = js-portfolio
+    base = "js-portfolio"
     publish = "dist"
     command = "npm run build"
 
