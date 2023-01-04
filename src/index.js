@@ -1,5 +1,5 @@
-import Template from './templates/Template.js';
-console.log('hola');
+import Template from 'Templates/Template'
+import 'Styles/main.css'
 
 (async function App() {
   const main = null || document.getElementById('main');
