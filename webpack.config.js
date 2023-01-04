@@ -6,7 +6,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 
 module.exports = (env) => {
-    console.log(env)
+    console.log(env);
     return {
         entry: './src/index.js',
         output: {
