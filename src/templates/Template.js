@@ -1,7 +1,8 @@
 import getData from 'Utilities/getData.js';
-import github from 'Images/github.png'
-import instagram from 'Images/instagram.png'
-import twitter from 'Images/twitter.png'
+import github from 'Images/github.png';
+import instagram from 'Images/instagram.png';
+import twitter from 'Images/twitter.png';
+console.log(github, instagram, twitter)
 
 const Template = async () => {
   const data = await getData();
