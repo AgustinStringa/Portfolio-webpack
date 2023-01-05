@@ -12,7 +12,8 @@ html {
 }
 
 body {
-	margin: 0
+	margin: 0;
+	/* background-color: #cd486b !important; */
 }
 
 article,

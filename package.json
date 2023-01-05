@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./scripts/create-env.js && npx webpack --mode production --config webpack.config.js",
-    "dev": "npx webpack --mode development"
+    "dev": "npx webpack --mode development",
+    "start": "webpack-dev-server --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
